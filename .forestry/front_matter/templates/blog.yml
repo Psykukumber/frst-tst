@@ -22,6 +22,10 @@ fields:
 - type: datetime
   name: date
   label: Date
+  config:
+    date_format: DD/MM/YYYY
+    time_format: hh:mm
+    export_format: ''
 - type: text
   name: type
   label: type
